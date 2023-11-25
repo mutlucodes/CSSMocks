@@ -7,6 +7,11 @@ button {
   border-color: transparent;
 }
 
+button:focus {
+  outline: none;
+}
+
 button:hover {
+  cursor: pointer;
   background-color: rgb(53, 113, 173);
 }
